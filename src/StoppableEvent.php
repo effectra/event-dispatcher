@@ -4,7 +4,7 @@ namespace Effectra\EventDispatcher;
 
 use Psr\EventDispatcher\StoppableEventInterface;
 
-abstract class Event implements StoppableEventInterface
+class StoppableEvent implements StoppableEventInterface
 {
     private bool $propagationStopped = false;
 
